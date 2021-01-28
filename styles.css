@@ -36,16 +36,102 @@ html {
     flex-direction: column;
     align-items: center;
 }
-.main-index img {
+.main-index .coin-exchange img {
     width: 195px;
     height: 195px;
     margin: 59px 0 40px;
 }
-.main-index article {
+.main-index .coin-exchange article {
     width: 85%;
-    min-height: 290px;
+    min-width: 290px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+.main-index .coin-exchange article h2 {
+    margin-bottom: 24px; 
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+.main-index .coin-exchange article .p-top {
+    margin-bottom: 48px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #757575;
+}
+.main-index .coin-exchange article .tittle-table {
+    position: relative;
+    right: 37px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    color: #FF9536;
+}
+.main-index .coin-exchange article table td {
+    width: 100px;
+    height: 39px;
+    background-color: var(--just-white);
+    padding-left: 20px;
+    text-align: left;
+    font-family: inter,sans-serif;
+}
+.main-index .coin-exchange article table .colum-one {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #B5B0AC;
+}
+.main-index .coin-exchange article table .colum-two {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #757575;    
+}
+.main-index .coin-exchange article table .colum-two .down-1 {
+    width: 12px;
+    height: 13px;
+    margin-left: 10px;
+    display: inline-block;
+    background-image: url("/assets/icons/trending-down.svg");
+}
+.main-index .coin-exchange article table .colum-two .up-1 {
+    width: 12px;
+    height: 13px;
+    margin-left: 10px;
+    display: inline-block;
+    background-image: url("/assets/icons/trending-up.svg");
+}
+/* bordes de la tabla */
+.main-index .coin-exchange article table .border-1 {
+    border-radius: 8px 0 0 0;
+}
+.main-index .coin-exchange article table .border-2 {
+    border-radius: 0 8px 0 0;
+}
+.main-index .coin-exchange article table .border-3 {
+    border-radius: 0 0 8px 0;
+}
+.main-index .coin-exchange article table .border-4 {
+    border-radius: 0 0 0 8px;
+}
+/* fin de los bordes de la tabla */
+.main-index .coin-exchange article .p-button {
+    background-color: var(--soft-orange);
+    padding: 8px;
+    margin-top: 16px;
+    font-family: inter, sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+.main-index .coin-exchange article .p-button b {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;   
+}
+/* fin seccion 2 */
