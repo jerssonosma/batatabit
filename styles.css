@@ -48,10 +48,10 @@ header h1 {
     color: var(--just-white);
 }
 header p{
-        font-size: 1.4rem;
-        font-weight: 500;
-        line-height: 1.8rem;
-        color: var(--soft-orange);
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-orange);
 }
 .header__button {
     background-color: var(--off-white);
@@ -192,3 +192,160 @@ header p{
     line-height: 1.9rem;   
 }
 /* fin seccion 1 */
+/* incio seccion 2 */
+.index-feature {
+    background-color: var(--warm-black);
+    width: 100%;
+    min-width: 320px;
+    height: 910px;
+    padding: 64px 0px;
+}
+.index-feature__title{
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);  
+}
+.index-feature__paragraph {
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #808080;
+}
+.index-feature-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.index-feature__watch {
+    background-color: var(--warm-black1);
+    width: 288px;
+    height: 152px;
+    border-radius: 4px;
+    padding: 14px 20px 22px 16px;
+    margin-bottom: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.index-feature__watch span {
+    margin-bottom: 12px;
+    background-image: url(./assets/icons/clock.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 24px;
+}
+.index-feature__watch h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color: var(--just-white);
+}
+.index-feature__watch p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #808080;
+}
+.index-feature__eye {
+    background-color: var(--warm-black1);
+    width: 288px;
+    height: 152px;
+    border-radius: 4px;
+    padding: 14px 20px 22px 16px;
+    margin-bottom: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.index-feature__eye span {
+    margin-bottom: 12px;
+    background-image: url(./assets/icons/eye.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 24px;
+}
+.index-feature__eye h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color: var(--just-white);
+}
+.index-feature__eye p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #808080;
+}
+.index-feature__dollar {
+    background-color: var(--warm-black1);
+    width: 288px;
+    height: 152px;
+    border-radius: 4px;
+    padding: 14px 20px 22px 16px;
+    margin-bottom: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.index-feature__dollar span {
+    margin-bottom: 12px;
+    background-image: url(./assets/icons/dollar-sign.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 24px;
+}
+.index-feature__dollar h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color: var(--just-white);
+}
+.index-feature__dollar p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #808080;
+}
+.index-feature__check {
+    background-color: var(--warm-black1);
+    width: 288px;
+    height: 152px;
+    border-radius: 4px;
+    padding: 14px 20px 22px 16px;
+    margin-bottom: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.index-feature__check span {
+    margin-bottom: 12px;
+    background-image: url(./assets/icons/check-circle.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 24px;
+}
+.index-feature__check h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color: var(--just-white);
+}
+.index-feature__check p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #808080;
+}
+/* fin seccion 2 */
