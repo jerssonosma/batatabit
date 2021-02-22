@@ -18,6 +18,7 @@
 html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 /* inicia el header */
 header {
@@ -200,6 +201,17 @@ header p{
     height: 910px;
     padding: 64px 0px;
 }
+.index__logo-container {
+    position: relative;
+}
+.index__batata-logo {
+    position: absolute;
+    width: 40.5px;
+    height: 24px;
+    background-image: url(./assets/icons/batatalogo.svg);
+    top: -77px;
+    left: calc(50% - 20px);
+}
 .index-feature__title{
     margin-bottom: 24px;
     text-align: center;
@@ -349,3 +361,175 @@ header p{
     color: #808080;
 }
 /* fin seccion 2 */
+/* inicio seccion 3  */
+.index-bitcoinbaby {
+    background-image: url(./assets/images/bitcoinbaby.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-width: 320px;
+    height: 387px;
+    padding-top: 64px;
+}
+.index-bitcoinbaby h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    color: var(--just-white);    
+}
+/* fin de la tercera seccion */
+/* inicio de la cuarta seccion */
+.index-plans {
+    background-color: var(--off-white);
+    width: 100%;
+    min-width: 320px;
+    height: 537px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.index-plans__title {
+    margin: 64px 15px 0;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+.index-plans__profits {
+    margin: 24px 15px 0;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+.index-plans__cards-container {
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.index-plans__card-one,
+.index-plans__card-two,
+.index-plans__card-three {
+    background-color: var(--just-white);
+    scroll-snap-align: center;
+    min-width: 190px;
+    max-width: 190px;
+    height: 247px;
+    padding: 0 15px;
+    margin: 50px 15px;
+    position: relative;
+    text-align: center;
+    border-radius: 8px;
+}
+.index-plans__card-one {
+    margin-left: 60px;
+}
+.index-plans__card-three {
+    margin-right: 60px;
+}
+.index-plans__recommended {
+    position: absolute;
+    background-color: var(--bitcoin-orange);
+    padding: 8px;
+    top: -18px;
+    left: calc(50% - 100.5px/2);
+    border-radius: 8px;
+    font-family: inter,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.45rem;
+    color: var(--just-white); 
+}
+.index-plans__anual-payment {
+    margin: 31px 0 8px 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--warm-black);
+}
+.index-plans__price {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: inter,sans-serif;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: -4px;
+    color: black;
+}
+.index-plans__price span {
+    margin: 8px 10px 0 -20px;
+    font-family: inter,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    color: var(--warm-black);
+}
+.index-plans__paragraph {
+    margin: 0 0 16px 0;
+    font-family: inter,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    color: #757575;
+}
+.index-plans__cards-container button {
+    background-color: var(--off-white);
+    width: 151px;
+    height: 48px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+}
+.index-plans__cards-container button span {
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    background-image: url(./assets/icons/arrow-right.svg);
+    display: inline-block;
+}
+/* fin de la cuerta seccion */
+/* inico foter */
+footer {
+    background-color: var(--bitcoin-orange);
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+footer section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.footer__left ul {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+.footer__left ul li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+.footer__left a {
+    text-decoration: none;
+    color: var(--just-white);
+}
+.footer__rigth img {
+    width: 64px;
+    height: 50px;
+}
