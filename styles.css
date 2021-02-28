@@ -88,7 +88,7 @@ header p{
 .coin-exchange {
     width: 100%;
     min-width: 320px;
-    height: 778px;
+    height: 798px;
     background-color: var(--off-white);
     display: flex;
     flex-direction: column;
@@ -121,6 +121,25 @@ header p{
     line-height: 1.8rem;
     color: #757575;
 }
+.coin-exchange-container {
+    width: 100%;
+    height: 260px;
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.table {
+    min-width: 210px;
+    max-width: 232px;
+    display: flex;
+    margin: 0 40px;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    scroll-snap-align: center; 
+}
 .main-index .coin-exchange article .tittle-table {
     position: relative;
     right: 37px;
@@ -129,6 +148,15 @@ header p{
     font-size: 1.8rem;
     line-height: 2.3rem;
     color: #FF9536;
+}
+.main-index .coin-exchange article .tittle-table-2 {
+    position: relative;
+    right: 37px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);   
 }
 .main-index .coin-exchange article table td {
     width: 100px;
@@ -178,20 +206,39 @@ header p{
     border-radius: 0 0 0 8px;
 }
 /* fin de los bordes de la tabla */
-.main-index .coin-exchange article .p-button {
+.main-index .coin-exchange article .p-button-orange {
     background-color: var(--soft-orange);
+    position: absolute;
+    top: 220px;
+    left: 5px;
     padding: 8px;
-    margin-top: 16px;
     font-family: inter, sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
     line-height: 1.4rem;
 }
-.main-index .coin-exchange article .p-button b {
+.main-index .coin-exchange article .p-button-orange b {
     font-weight: 700;
     font-size: 1.6rem;
     line-height: 1.9rem;   
 }
+.main-index .coin-exchange article .p-button-blue {
+    background-color: var(--soft-blue);
+    position: absolute;
+    top: 220px;
+    left: 5px;
+    padding: 8px;
+    font-family: inter, sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+.main-index .coin-exchange article .p-button-blue b {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;   
+}
+
 /* fin seccion 1 */
 /* incio seccion 2 */
 .index-feature {
@@ -228,7 +275,7 @@ header p{
     line-height: 18px;
     color: #808080;
 }
-.index-feature-container{
+.index-feature-container {
     width: 100%;
     height: 100%;
     display: flex;
