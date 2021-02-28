@@ -6,10 +6,11 @@
     <meta name="description" content="primer proyecto personal implementando lo aprendido en cursos de platzi de html y css basico con resposive desing desde movile first, asi como el uso de  git y github que es el sistema de  control de versiones">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="">
-    <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Documents</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./CSS/tablet.css" media="screen and (min-width: 598px)">
 </head>
 <body>
     <header>
@@ -26,26 +27,53 @@
             <article>
                 <h2>Visibilizamos todas las tasas de cambio.</h2>
                 <p class="p-top">Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
-                <table>
-                    <caption class="tittle-table">Monedas</caption>
-                    <tr>
-                        <td class="colum-one border-1">Bitcoin</td>
-                        <td class="colum-two border-2">$ 1.96 <span class="down-1"></span></td>
-                    </tr>
-                    <tr>
-                        <td class="colum-one">Ethereum</td>
-                        <td class="colum-two">$ 0.07 <span class="up-1"></span></td>
-                    </tr>
-                    <tr>
-                        <td class="colum-one">Ripple</td>
-                        <td class="colum-two">$ 2.15 <span class="down-1"></span></td>
-                    </tr>
-                    <tr>
-                        <td class="colum-one border-4">Stellar</td>
-                        <td class="colum-two border-3">$ 4.96 <span class="down-1"></span></td>
-                    </tr>
-                </table>
-                <p class="p-button"><b>Actualizado:</b> 19 Julio 23:45</p>
+                <div class="coin-exchange-container">
+                    <div class="table">
+                        <table>
+                            <caption class="tittle-table">Monedas</caption>
+                            <tr>
+                                <td class="colum-one border-1">Bitcoin</td>
+                                <td class="colum-two border-2">$ 1.96 <span class="down-1"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="colum-one">Ethereum</td>
+                                <td class="colum-two">$ 0.07 <span class="up-1"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="colum-one">Ripple</td>
+                                <td class="colum-two">$ 2.15 <span class="down-1"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="colum-one border-4">Stellar</td>
+                                <td class="colum-two border-3">$ 4.96 <span class="down-1"></span></td>
+                            </tr>
+                            <p class="p-button-orange"><b>Actualizado:</b> 19 Julio 23:45</p>
+                        </table>
+                    </div>
+                    <div class="table">
+                        <table>
+                            <caption class="tittle-table-2">Comisiones</caption>
+                            <tr>
+                                <td class="colum-one border-1">Bitrade</td>
+                                <td class="colum-two border-2">$ 12.96</td>
+                            </tr>
+                            <tr>
+                                <td class="colum-one">Bitpreco</td>
+                                <td class="colum-two">$ 13.07</td>
+                            </tr>
+                            <tr>
+                                <td class="colum-one">Novadax</td>
+                                <td class="colum-two">$ 13.15</td>
+                            </tr>
+                            <tr>
+                                <td class="colum-one border-4">Coinext</td>
+                                <td class="colum-two border-3">$ 14.96</td>
+                            </tr>
+                            <p class="p-button-blue"><b>Actualizado:</b> 19 Julio 23:45</p>
+                        </table>
+                    </div>
+                    <h3>.</h3>
+                </div>
             </article>
         </section>
         <section class="index-feature">
