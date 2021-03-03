@@ -1,5 +1,14 @@
-/* de 598px a 700px */
-/* quidto el scroll y centro el slide bar de la primera seccion del main */
+/* de 598px a 900px */
+/* quidto el scroll y centro el slide bar de la primera seccion del main  y la flecha */
+.row-slide1 {
+    display: none;
+}
+.row-slide2 {
+    display: none;
+}
+.row-slide3 {
+    display: none;
+}
 .coin-exchange-container {
     width: 100%;
     height: 260px;
