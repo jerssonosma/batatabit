@@ -1,0 +1,18 @@
+/* de 900px a 1280px */
+/* hago 2 filas de la seguna seccion y agrando unos textos*/
+.index-feature__title {
+    font-size: 3rem;
+}
+.index-feature__paragraph {
+    font-size: 1.5rem;
+    letter-spacing: 0.07rem;
+}
+.index-feature {
+    height: 800px;
+    padding-bottom: 200px;
+}
+.index-feature-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
