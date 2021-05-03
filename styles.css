@@ -57,6 +57,8 @@ header p{
 .header__button {
     background-color: var(--off-white);
     position: absolute;
+    z-index: 1;
+    /* el z-index lo hago para  que se  pueda  ver la sombra abajo en el boton */
     top: 268px;
     left: calc(50% - 113px);
     display: block;
